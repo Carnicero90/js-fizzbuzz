@@ -1,0 +1,112 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background: slategrey;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    text-shadow: black 1px 1px 1px;
+}
+
+.flexer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.flexer.wrap {
+    flex-wrap: wrap;
+
+}
+
+.container {
+    width: 45%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    margin-bottom: 30px;
+}
+
+.container h2 {
+    color: white;
+    margin-bottom: 15px;
+    padding-left: 3px;
+}
+
+.container a {
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.container .btn {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.one {
+    background: white;
+}
+
+.one a,
+.one h2 {
+    background: coral;
+}
+
+.one a:hover {
+    box-shadow: 0 0 0 5px white,
+        0 0 0 10px coral;
+}
+
+.two {
+    background: cornflowerblue;
+}
+
+.two a,
+.two h2 {
+    background: gold;
+    color: white;
+}
+
+.two {
+    color: white;
+}
+
+.two a:hover {
+    box-shadow: 0 0 0 5px cornflowerblue,
+        0 0 0 10px gold;
+}
+
+.three {
+    background-color: greenyellow;
+}
+
+.three a,
+.three h2 {
+    background-color: blue;
+}
+
+.three a:hover {
+    box-shadow: 0 0 0 5px greenyellow,
+        0 0 0 10px blue;
+}
+
+
+@media screen and (max-width: 800px) {
+    .container {
+        width: 80%;
+    }
+}
