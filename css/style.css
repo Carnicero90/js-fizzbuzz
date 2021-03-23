@@ -1,3 +1,5 @@
+/* RESETS
+   =============== */
 * {
     border: 0;
     margin: 0;
@@ -9,11 +11,22 @@ a {
     color: inherit;
 }
 
+/* =============== */
+
+/* MACRO LAYOUT 
+   =============== */
 body {
     background: slategrey;
     font-weight: 600;
 }
 
+/* =============== */
+
+/* MICRO LAYOUT 
+   =============== */
+
+/* HEADER
+   ++++++++++ */
 h1 {
     text-align: center;
     color: white;
@@ -21,15 +34,16 @@ h1 {
     text-shadow: black 1px 1px 1px;
 }
 
+/* ++++++++++ */
+
+/* MAIN
+   ++++++++++ */
+
 .flexer {
     display: flex;
     justify-content: space-around;
-    padding-top: 30px;
-}
-
-.flexer.wrap {
     flex-wrap: wrap;
-
+    padding-top: 30px;
 }
 
 .container {
@@ -104,6 +118,10 @@ h1 {
         0 0 0 10px blue;
 }
 
+/* ++++++++++ */
+/* =============== */
+
+/* QUERIES */
 
 @media screen and (max-width: 800px) {
     .container {

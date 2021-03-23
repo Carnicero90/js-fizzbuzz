@@ -45,18 +45,3 @@ for (var i = 0; i < arr.length; i++) {
     }
 }
 console.log("ordinata: ", arr);
-
-
-
-// function reorder(array) {
-//     for (var i = 0; i < array.length; i++) {
-//         for (var z = 0; z < i; z++) {
-//             var num = array[i];
-//             if (num < array[z]) {
-//                 var num2 = array[z];
-//                 array[i] = num2;
-//                 array[z] = num;
-//             }
-//         }
-//     }
-// }
