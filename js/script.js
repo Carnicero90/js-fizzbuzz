@@ -18,7 +18,7 @@ for (var counter = 1; counter <= range; counter++) {
 document.getElementById("fizz").innerHTML = (range - range % fizz) / fizz;
 /* a titolo esemplificativo: (100 - 100 % 3) dà come risultato l'ultimo multiplo
 di 3 inferiore a 100 (100 -1 = 99): dividendolo per 3, ho come risultato il 
-n.ro totale di multipli di 3 inferiori a 100 (100/3 = 33)
+n.ro totale di multipli di 3 inferiori a 100 (99/3 = 33)
 */
 document.getElementById("buzz").innerHTML = (range - range % buzz) / buzz;
 document.getElementById("fizzbuzz").innerHTML = (range - range % fizzbuzz) / fizzbuzz;
